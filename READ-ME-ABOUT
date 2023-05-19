@@ -1,0 +1,10 @@
+- RiverPod :
+  - is incredebly powerful in handling the state 
+  -however why i chose is cuz the way it handls the : 
+    - ASYNC STATE AND ASYNC CRUD 
+    - all the complixity is in the riverpod so the UI (CONSUMER) will be incredebli simple even when the use of ASYNCRO
+   
+   
+- One Stupid Mistake to avoid :
+  - if u somehow needed the previous to create the new one remember to clone it first before cleaning the old state and now in the creation of a new state u have a clone of 
+  previous one ( ex : cloning an array to add new elements to it ...etc)
